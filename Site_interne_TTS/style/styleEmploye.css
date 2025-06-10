@@ -1,0 +1,21 @@
+.calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+      text-align: center;
+    }
+    .calendar-day {
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .calendar-day.selected {
+      background-color: #0d6efd;
+      color: white;
+    }
+    .week-selector {
+      display: flex;
+      justify-content: end;
+      margin-bottom: 5px;
+    }

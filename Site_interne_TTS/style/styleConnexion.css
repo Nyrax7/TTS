@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+.card {
+  border: none;
+}
+div img {
+  max-height: 200px;
+}
+
+.btn-primary {
+  background-color: gray;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: lightgray;
+}
